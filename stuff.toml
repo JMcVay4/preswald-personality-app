@@ -1,0 +1,20 @@
+[project]
+title = "Personality Trait Explorer"
+version = "0.1.0"
+port = 8501
+slug = "personality-traits"
+entrypoint = "app.py"
+
+[branding]
+name = "Personality Trait Explorer"
+logo = "images/logo.png"         # Optional: replace with your own file
+favicon = "images/favicon.ico"   # Optional: replace with your own file
+primaryColor = "#4B9CD3"         # UMN Blue (feel free to change)
+
+[data.personality_dataset]
+type = "csv"
+path = "data/personality_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
